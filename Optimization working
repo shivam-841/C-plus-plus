@@ -1,0 +1,11 @@
+//take the following code:
+int a = 41;
+int b = a + 1;
+
+//This will be optimized into this during compilation: 
+int a = 41;
+int b = 41 + 1;
+
+//This again will be optimized into the following: 
+int a = 41;
+int b = 42;
