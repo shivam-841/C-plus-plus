@@ -1,0 +1,19 @@
+// function that returns 
+// product of two integers  
+int multiplyTwoNumbers(int x, int y) {
+  return x * y;
+}
+    
+Let's say we save the above code file with the multiply.h name.
+
+
+Include your header file using #include
+
+#include<iostream>
+#include "multiply.h"
+using namespace std;
+
+int main() {
+  int x = 10, y = 5;
+  cout << "Multiplication is " << multiplyTwoNumbers(x, y);
+}
