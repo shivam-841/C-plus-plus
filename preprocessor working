@@ -1,0 +1,17 @@
+//the following code will be changed before the compiler starts to
+//compile it:
+#define NUMBER 41
+int main() {
+ int a = NUMBER + 1;
+ return 0;
+}
+
+//Everything that is defined using the #define directive is called a macro. After
+//preprocessing, the compiler gets the transformed source in this form:
+int main() {
+ int a = 41 + 1;
+ return 0;
+ }
+ 
+ //It is strongly suggested to use const declarations instead of macro definitions wherever
+applicable.
