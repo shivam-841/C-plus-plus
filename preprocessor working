@@ -14,4 +14,4 @@ int main() {
  }
  
  //It is strongly suggested to use const declarations instead of macro definitions wherever
-applicable.
+//applicable.Search why const is better than define or enum!
