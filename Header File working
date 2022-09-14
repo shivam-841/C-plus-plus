@@ -17,3 +17,5 @@ int main() {
   int x = 10, y = 5;
   cout << "Multiplication is " << multiplyTwoNumbers(x, y);
 }
+
+// use it later in class and see how private,public and protected access specifier behaves
