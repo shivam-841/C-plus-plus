@@ -1,0 +1,20 @@
+//printing hello world without main function
+
+#include<iostream>
+#define fun main
+int fun()
+{
+    std::cout<<"Hello World"; 
+}
+
+//printing hello world without semicolon
+
+#include<iostream>
+int main()
+{
+    if(std::cout<<"Hello World") 
+    {
+        
+    }
+}
+//printing hello world without cout
