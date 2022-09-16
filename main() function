@@ -1,0 +1,14 @@
+//command line arguments in main()
+#include<iostream>
+
+int main(int shiv,char* shic[]) {
+    std::cout<<"the number of passed arguments is:"<<shiv<<std::endl;
+    std::cout<<"Arguments are:"<<std::endl;
+
+    for(int ix=1;ix<argc;++ix) {
+        std::cout<<shic[ix]<<std::endl;
+    }
+    return 0;
+}
+
+// Compiler collects the argument initialised and then call main() function 
