@@ -15,3 +15,5 @@ int main() {
  
  //It is strongly suggested to use const declarations instead of macro definitions wherever
 //applicable.Search why const is better than define or enum!
+
+//visit this link for more information about macros https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/
